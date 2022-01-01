@@ -1,0 +1,35 @@
+{
+    "eslint.format.enable": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.suggestSelection": "first",
+    "editor.snippetSuggestions": "top",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Fira code",
+    "files.autoSaveDelay": 10000,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.triggerExpansionOnTab": true,
+    "tailwindCSS.emmetCompletions": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "django-html": "html"
+    },
+    "bracketPairColorizer.depreciation-notice": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "html.format.endWithNewline": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "html.format.templating": true,
+    "html.suggest.html5": true,
+    "editor.linkedEditing": true,
+    "html.validate.scripts": true,
+    "html.validate.styles": true,
+    "[html]": {
+        "editor.foldingStrategy": "indentation"
+    },
+    "workbench.startupEditor": "none",
+}
