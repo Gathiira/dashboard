@@ -7,9 +7,9 @@ function App() {
   return (
     <div >
       <Topbar />
-      <div className="flex gap-1">
+      <div className="flex bg-gray-100">
         <Sidebar />
-        <div className="flex-[4] md:flex-[6]">
+        <div className="flex-[4] md:flex-[6] bg-gray-200">
           <Home />
         </div>
       </div>

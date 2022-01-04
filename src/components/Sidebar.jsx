@@ -9,7 +9,7 @@ import {VscFeedback} from 'react-icons/vsc'
 
 const Sidebar = () => {
     return (
-        <div className='flex-[0.4] sticky top-[50px] bg-gray-100 h-[calc(100%_-_50px)] w-full'>
+        <div className='flex-[0.4] sticky top-[50px] h-[calc(100%_-_50px)] w-full'>
             <div className="flex flex-col md:p-[10px] text-gray-700 text-sm md:text-xl h-full overflow-auto">
                 <div className="flex flex-col mb-[10px] justify-center items-center">
                     <ul className="flex flex-col gap-2 list-none w-full">
