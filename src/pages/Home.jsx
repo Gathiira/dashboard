@@ -1,6 +1,7 @@
 import React from 'react'
 import Charts from '../components/Charts'
 import FeatureInfo from '../components/FeatureInfo'
+import Topbar from '../components/Topbar'
 import WidgetLg from '../components/WidgetLg'
 import WidgetSm from '../components/WidgetSm'
 import { data } from '../utils/data'
