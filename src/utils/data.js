@@ -180,15 +180,15 @@ export const transactions = [
 ]
 
 export const user_rows = [
-  { id: 1, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 2, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 3, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 4, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 5, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 6, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 7, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 8, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 9, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 10, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
-  { id: 11, username: 'John Snow', avatar: url, email: 'john@gmail.com', status:'active', transactions:'ksh 20,000' },
+  { id: 1, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 2, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 3, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 4, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 5, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 6, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 7, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 8, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 9, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 10, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
+  { id: 11, username: 'John Snow', avatar: url, email: 'john@gmail.com', phone:'+1 233 3434343', status:'active', location:'NY, USA', transactions:'ksh 20,000' },
 ];

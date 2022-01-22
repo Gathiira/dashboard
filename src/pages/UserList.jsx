@@ -27,6 +27,13 @@ const UserList = () => {
             }
         },
         { field: 'email', headerName: 'Email', width: 200 },
+        { field: 'phone', headerName: 'Phone Number', width: 200 },
+        {
+          field: 'location',
+          headerName: 'Address',
+          description: 'User Address',
+          width: 200
+        },
         {
           field: 'status',
           headerName: 'Status',
@@ -62,14 +69,15 @@ const UserList = () => {
 
     return (
         <div className='flex m-2'>
-            <div className='h-[600px] w-full'>
+            <div className='h-[800px] w-full'>
             <DataGrid 
                 rows={data}
                 columns={user_columns}
-                pageSize={8}
-                rowsPerPageOptions={[5]}
+                pageSize={10}
+                rowsPerPageOptions={[8]}
                 checkboxSelection
                 disableSelectionOnClick
+                className='p-5'
             />
             </div>
         </div>
