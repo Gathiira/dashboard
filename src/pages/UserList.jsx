@@ -3,6 +3,7 @@ import { DataGrid } from '@material-ui/data-grid';
 import { user_rows } from '../utils/data';
 import { MdOutlineDeleteForever, MdOutlineEdit } from 'react-icons/md';
 import { Link } from 'react-router-dom';
+import { BsPlusLg } from 'react-icons/bs';
 
 const UserList = () => {
     const [data, setData] = useState(user_rows)
@@ -68,7 +69,15 @@ const UserList = () => {
 
 
     return (
-        <div className='flex m-2'>
+        <div className='flex flex-col m-2'>
+            <div className='flex items-start md:justify-between m-2'>
+                <h2 className='font-[300] text-xl invisible md:visible'>List of all users</h2>
+                <Link to='/user-create'>
+                    <button className='bg-green-300 p-2 rounded-lg cursor-pointer text-[24px]'>
+                        <BsPlusLg className='w-[80px]' />
+                    </button>
+                </Link>
+            </div>
             <div className='h-[800px] w-full'>
             <DataGrid 
                 rows={data}

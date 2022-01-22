@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { user_rows } from '../utils/data';
-import {BsPlusLg} from 'react-icons/bs'
-import { MdPermIdentity, MdCalendarToday, MdPhoneAndroid, MdMailOutline, MdLocationPin, MdOutlineFileUpload } from 'react-icons/md';
+import { MdPermIdentity, MdCalendarToday, MdPhoneAndroid, MdMailOutline, MdLocationPin } from 'react-icons/md';
 
 function User() {
     const { userId } = useParams(); 
@@ -19,14 +18,7 @@ function User() {
 
     return (
         <div className='m-2'>
-            <div className='flex items-center md:justify-between'>
-                <h2 className='font-[700] text-[32px] invisible md:visible'>Edit User</h2>
-                <Link to='/user-create'>
-                    <button className='bg-green-300 p-2 rounded-lg cursor-pointer text-[24px]'>
-                        <BsPlusLg className='w-[80px]' />
-                    </button>
-                </Link>
-            </div>
+            <h2 className='font-[300] text-xl ml-3'>Edit User Details</h2>
             <div className='flex flex-col md:flex-row gap-4 mt-5'>
                 <div 
                     className='flex-[1] p-[20px] shadow-lg shadow-gray-400 rounded-lg'
