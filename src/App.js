@@ -4,6 +4,7 @@ import Topbar from "./components/Topbar";
 import Home from "./pages/Home";
 import { Routes, Route } from "react-router-dom";
 import UserList from "./pages/UserList";
+import User from "./pages/User";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div className="flex-[4] md:flex-[6] bg-gray-200">
           <Routes>
             <Route path="/users" element={<UserList />} />
+            <Route path="/user/:userId" element={<User />} />
             <Route path="/*" element={<Home />} />
           </Routes>
         </div>

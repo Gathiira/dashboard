@@ -17,8 +17,8 @@ const WidgetLg = () => {
                 </thead>
                 <tbody className='text-left'>
                     {transactions?.map((transaction,i)=>(
-                        <tr className='border-b-[1px] border-b-slate-300 '>
-                            <td className='flex items-center gap-1'>
+                        <tr key={i} className='border-b-[1px] border-b-slate-300'>
+                            <td className='flex items-center gap-1 p-2'>
                                 <img 
                                     src={transaction.user.img} alt="cust"
                                     className='w-[30px] h-[30px] rounded-full object-cover'

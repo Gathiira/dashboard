@@ -15,8 +15,11 @@ const Sidebar = () => {
             <div className="flex flex-col md:p-[10px] text-gray-700 text-sm md:text-xl h-full overflow-auto">
                 <div className="flex flex-col mb-[10px] justify-center items-center">
                     <ul className="flex flex-col gap-2 list-none w-full">
-                        <li className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300">
-                            <MdLineStyle /> Home</li>
+                        <li className='cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300'>
+                            <Link to='/' className="flex items-center gap-1 p-2 " >
+                                <MdLineStyle /> Home
+                            </Link>
+                        </li>
                         <li className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300">
                             <MdOutlineAnalytics /> Analytics</li>
                         <li className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300">
@@ -26,8 +29,10 @@ const Sidebar = () => {
                 <h2 className='text-gray-400 m-3'>Quick Menu</h2>
                 <div className="flex flex-col mb-[10px] justify-center items-center">
                     <ul className="flex flex-col gap-2 list-none w-full">
-                        <li className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300">
-                            <FiUsers /> Users
+                        <li>
+                            <Link to='/users' className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300" >
+                                <FiUsers /> Users
+                            </Link>
                         </li>
                         <li className="flex items-center gap-1 p-2 cursor-pointer active:bg-gray-300 rounded-sm hover:bg-gray-300">
                             <FaSitemap /> Products</li>

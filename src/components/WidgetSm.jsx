@@ -1,5 +1,6 @@
 import React from 'react'
 import {MdVisibility} from 'react-icons/md'
+import { Link } from 'react-router-dom'
 import { userList } from '../utils/data'
 
 const WidgetSm = () => {
@@ -8,7 +9,7 @@ const WidgetSm = () => {
             <span className="font-bold text-xl">New Members</span>
             <ul className="m-0 p-0 list-none">
                 {userList?.map((user,i)=>(
-                    <li className="flex justify-between items-center gap-2 my-3 border-b-[1px] border-b-slate-300 " key={i}>
+                    <li className="flex justify-between items-center gap-2 my-3 border-b-[1px] border-b-slate-300 p-1" key={i}>
                         <div className="flex gap-2 items-center">
                             <img 
                                 src={user.img} 
@@ -20,11 +21,13 @@ const WidgetSm = () => {
                                 <span className="text-sm font-thin">{user.jobtitle}</span>
                             </div>
                         </div>
-                        <button
-                            type='button' 
-                            className="flex items-center gap-1 rounded-md bg-white m-1 p-1">
-                            <MdVisibility /> View
-                        </button>
+                        <Link to={'/user/' + i}>
+                            <button
+                                type='button' 
+                                className="flex items-center gap-1 rounded-md bg-white m-1 p-1">
+                                <MdVisibility /> View
+                            </button>
+                        </Link>
                     </li>
                 ))}
             </ul>
